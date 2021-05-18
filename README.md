@@ -1,3 +1,15 @@
+# This fork
+
+It seems that the original developer has abandoned the project and is not accepting pull requests. 
+
+This fork fixes the instagram_web_api client class `_extract_rhx_gis` and `login` methods with the solution from [this issue comment](https://github.com/ping/instagram_private_api/issues/170#issuecomment-652487444). 
+
+Install this fork with pip:
+
+``pip install git+https://git@github.com/ndri/instagram_private_api.git@1.6.1``
+
+Original README.md below.
+
 # Instagram Private API
 
 A Python wrapper for the Instagram private API with no 3rd party dependencies. Supports both the app and web APIs.
@@ -8,12 +20,6 @@ A Python wrapper for the Instagram private API with no 3rd party dependencies. S
 [![Build](https://img.shields.io/travis/com/ping/instagram_private_api.svg)](https://travis-ci.com/ping/instagram_private_api)
 
 [![Build](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/ping)
-
-## This fork
-
-It seems that the original developer has abandoned the project and is not accepting pull requests. 
-
-This fork fixes the instagram_web_api client class `_extract_rhx_gis` and `login` methods with the solution from [this issue comment](https://github.com/ping/instagram_private_api/issues/170#issuecomment-652487444). 
 
 ## Overview
 
