@@ -9,6 +9,12 @@ A Python wrapper for the Instagram private API with no 3rd party dependencies. S
 
 [![Build](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/ping)
 
+## This fork
+
+It seems that the original developer has abandoned the project and is not accepting pull requests. 
+
+This fork fixes the instagram_web_api client class `_extract_rhx_gis` and `login` methods with the solution from [this issue comment](https://github.com/ping/instagram_private_api/issues/170#issuecomment-652487444). 
+
 ## Overview
 
 I wrote this to access Instagram's API when they clamped down on developer access. Because this is meant to achieve [parity](COMPAT.md) with the [official public API](https://www.instagram.com/developer/endpoints/), methods not available in the public API will generally have lower priority.
